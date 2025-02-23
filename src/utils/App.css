@@ -1,0 +1,36 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: "Tajawal", sans-serif; /* يمكنك استخدام أي خط عربي */
+  }
+  .filter-section {
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    background-color: #f9fff5;
+  }
+  
+  .filter-group {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .form-select {
+    border: 1px solid #28a745;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #155724;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-section {
+      text-align: center;
+    }
+    .filter-group {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+.profile-card {
+    background-color: #eef7e1; /* لون أخضر فاتح مستوحى من النباتات */
+    border: 2px solid #6d8f5d; /* لون أخضر طبيعي */
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
+    max-width: 420px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profile-title {
+    color: #2e7d32;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #a5d6a7;
+    padding-bottom: 12px;
+    background: linear-gradient(to right, #6d8f5d, #9ccc65);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .profile-list {
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .profile-item {
+    font-size: 18px;
+    color: #4e3d2e; /* لون بني دافئ يعكس الطابع الريفي */
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 14px; /* زيادة المسافات بين العناصر */
+    border-radius: 12px;
+    border: 1px solid #b0d78f;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .profile-item strong {
+    color: #2e7d32;
+    min-width: 110px;
+  }
+  
+  .profile-item:hover {
+    background-color: #e1f3d8; /* تأثير خفيف عند التمرير */
+    transform: scale(1.03);
+  }
+  
+  .profile-text {
+    margin-left: 12px;
+    font-weight: 500;
+    flex: 1;
+  }
+  
+  @media (max-width: 500px) {
+    .profile-card {
+      padding: 20px;
+      max-width: 90%;
+    }
+    .profile-title {
+      font-size: 22px;
+    }
+    .profile-item {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  

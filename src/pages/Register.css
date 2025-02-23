@@ -1,0 +1,30 @@
+/* src/styles/Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .register-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h2 {
+    color: #2d6a4f;
+  }
+  
+  .btn-success {
+    background-color: #2d6a4f;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #1b5e20;
+  }
+  
