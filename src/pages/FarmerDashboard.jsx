@@ -33,9 +33,9 @@ const FarmerDashboard = () => {
       <div className="farm-info mb-4">
         <h2>معلومات المزرعة</h2>
         <p><strong>الاسم:</strong> {farm.name}</p>
-        <p><strong>المالك:</strong> {farm.owner}</p>
-        <p><strong>الموقع:</strong> {farm.location}</p>
-        <p><strong>المساحة:</strong> {farm.area}</p>
+        <p><strong>العنوان:</strong> {farm.owner}</p>
+        <p><strong>رقم الهاتف:</strong> {farm.location}</p>
+        <p><strong>المزرعة:</strong> {farm.area}</p>
       </div>
 
       <div className="crops mb-4">

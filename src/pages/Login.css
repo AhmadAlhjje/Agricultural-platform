@@ -1,5 +1,9 @@
 /* src/styles/Login.css */
 .login-container {
+  background-image: url('https://gktalina.ru/local/templates/talina/img/home/main-about/set/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;

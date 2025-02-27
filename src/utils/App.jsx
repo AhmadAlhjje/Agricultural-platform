@@ -16,15 +16,14 @@ import FarmerDashboard from "../pages/FarmerDashboard";
 import NotFound from "../pages/NotFound";
 import Navbar from "../components/layouts/Navbar";  
 import Footer from "../components/layouts/Footer ";  
-import './App.css'
 import OwnerDashboard from "../pages/OwnerDashboard";
-
+import './App.css'
 
 function App() {
   return (
     <Router>
-      <Navbar />  {/* ✅ يتم عرض Navbar في جميع الصفحات */}
-      <div className="container mt-4">
+      <Navbar /> 
+      <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
@@ -42,7 +41,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-      <Footer />  {/* ✅ يتم عرض Footer في جميع الصفحات */}
+      <Footer />  
     </Router>
   );
 }

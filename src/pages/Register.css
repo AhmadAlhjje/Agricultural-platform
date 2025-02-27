@@ -1,30 +1,47 @@
-/* src/styles/Register.css */
+#register-page {
+  background-image: url('https://gktalina.ru/local/templates/talina/img/home/main-about/set/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 0 ;
+  height: 100vh;
+}
 .register-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  .register-card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+} 
   h2 {
     color: #2d6a4f;
   }
-  
   .btn-success {
-    background-color: #2d6a4f;
     border: none;
+    background: linear-gradient(135deg, #3ccc41, #335808); 
+    border: none; 
+    padding: 10px 20px;
   }
   
   .btn-success:hover {
-    background-color: #1b5e20;
+    background: linear-gradient(135deg, #176119, #629e1d); 
+  }
+  .custom-react-select .css-1s2u09g-control {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid #2d6a4f;
+    font-size: 1.2rem;
+    color: #2d6a4f;
+    transition: 0.3s;
+  }
+  
+  .custom-react-select .css-1s2u09g-control:hover {
+    background-color: #e9f5eb;
+  }
+  
+  .custom-react-select .css-1s2u09g-control:focus {
+    border-color: #3ccc41;
+    box-shadow: 0 0 10px rgba(60, 204, 65, 0.5);
   }
   

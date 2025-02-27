@@ -5,10 +5,10 @@ const FeaturedOffers = () => {
   const offers = [
     {
       id: 1,
-      title: "حنطة",
+      title: "خيار",
       image: "/assets/R.png",
       farmer: "مزارع أحمد",
-      price: "35 ريال / كيلو",
+      price: "3500 ل.س / كيلو",
       discount: 10, // نسبة الخصم
       startDate: "2025-02-10", // تاريخ بدء العرض
       endDate: "2025-02-20", // تاريخ انتهاء العرض
@@ -19,7 +19,7 @@ const FeaturedOffers = () => {
       title: "موز",
       image: "/assets/download.jpg",
       farmer: "مزارع سامي",
-      price: "50 ريال / كرتونة",
+      price: "5000 ل.س / كرتونة",
       discount: 15, // نسبة الخصم
       startDate: "2025-02-15", // تاريخ بدء العرض
       endDate: "2025-02-25", // تاريخ انتهاء العرض
@@ -30,7 +30,7 @@ const FeaturedOffers = () => {
       title: "تفاح",
       image: "/assets/download.jpg",
       farmer: "مزارع علي",
-      price: "40 ريال / سلة",
+      price: "4000 ل.س / سلة",
       discount: 5, // نسبة الخصم
       startDate: "2025-02-12", // تاريخ بدء العرض
       endDate: "2025-02-22", // تاريخ انتهاء العرض

@@ -5,11 +5,11 @@ const AllProducts = () => {
   const products = [
     {
       id: 1,
-      title: "حنطة",
-      description: "حنطة عالية الجودة غنية بالعناصر الغذائية.",
+      title: "خيار",
+      description: "خيار عالي الجودة.",
       image: "/assets/R.png",
       farmer: "مزارع أحمد",
-      price: "35 ريال / كيلو",
+      price: "3500 ل.س / كيلو",
       quantity: "500 كيلو",
       category: "حبوب",
       rating: 4.5, //التقييم
@@ -20,7 +20,7 @@ const AllProducts = () => {
       description: "موز طبيعي طازج ومنتج محليًا.",
       image: "/assets/download.jpg",
       farmer: "مزارع سامي",
-      price: "50 ريال / كرتونة",
+      price: "5000 ل.س / كرتونة",
       quantity: "200 كرتونة",
       category: "فواكه",
       rating: 4.8,
@@ -31,7 +31,7 @@ const AllProducts = () => {
       description: "تفاح أحمر لذيذ، طازج وصحي.",
       image: "/assets/R.png",
       farmer: "مزارع علي",
-      price: "40 ريال / سلة",
+      price: "4000 ل.س / سلة",
       quantity: "150 سلة",
       category: "فواكه",
       rating: 4.2,
@@ -41,7 +41,7 @@ const AllProducts = () => {
   return (
     <div className="container mt-5">
       <h3 className="text-center mb-4" style={{ color: "#4CAF50" }}>
-        العروض الزراعية المميزة
+        جميع المنجات
       </h3>
       <div className="row">
         {products.map((product) => (

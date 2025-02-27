@@ -4,7 +4,7 @@ import { BiShoppingBag } from "react-icons/bi"; // استيراد أيقونة �
 
 const Navbar = ({ isAuthenticated, onLogout }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-success text-white">
+    <nav className="navbar navbar-expand-lg navbar-light bg-success text-white mb-4">
       <div className="container-fluid d-flex justify-content-between align-items-center">
         
         {/* الروابط */}

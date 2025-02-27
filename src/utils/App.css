@@ -1,7 +1,9 @@
 body {
     direction: rtl;
     text-align: right;
-    font-family: "Tajawal", sans-serif; /* يمكنك استخدام أي خط عربي */
+    font-family: "Tajawal", sans-serif; 
+    margin: 0;
+    padding: 0;
   }
   .filter-section {
     border: 2px solid #28a745;
